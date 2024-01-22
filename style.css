@@ -1,0 +1,27 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+#timer {
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    color: #000dff;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons img{
+    cursor: pointer;
+    width: 20px;
+    margin: 0 10px;
+    padding: 0 0 5px 0;
+}
