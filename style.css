@@ -4,17 +4,48 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 300px;
     margin: 0;
-    background-color: #ffffff;
+    border-radius: 10px;
+    background-color: #F5E8DD !important;
+    border: none !important;
 }
 #timer {
+    font-family: 'Abril Fatface', serif;
     font-size: 3em;
     text-align: center;
     font-weight: bold;
     padding: 5px;
-    color: #000dff;
+    color: #8E7AB5;
 }
-.buttons{
+#set_timer{
+    border: solid 3px #8E7AB5;
+    font-weight: initial;
+    width: 100%;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#minutes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SpecificTime{
+    background-color: #8E7AB5;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    margin: 0 3px;
+    border-radius: 5px;
+    width: 15%;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+.buttons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,4 +55,8 @@ body {
     width: 20px;
     margin: 0 10px;
     padding: 0 0 5px 0;
+}
+.btn{
+    margin: 5px;
+    height: 35px;
 }
